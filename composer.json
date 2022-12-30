@@ -1,0 +1,9 @@
+{
+    "name": "hrisha/alpine-nginx-php8",
+    "autoload": {
+        "psr-4": {
+            "Hrisha\\AlpineNginxPhp8\\": "src/"
+        }
+    },
+    "require": {}
+}
