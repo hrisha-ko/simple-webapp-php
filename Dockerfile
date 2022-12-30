@@ -75,5 +75,5 @@ RUN mkdir /var/www/html/storage
 RUN chown -R nobody:nobody /var/www/html/public
 RUN rm -rf .docker Dockerfile
 
-EXPOSE 80
+EXPOSE 8080
 CMD ["supervisord", "-c", "/etc/supervisor.d/supervisord.ini"]
